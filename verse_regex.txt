@@ -1,0 +1,8 @@
+Current $verse_regex
+\d{1,3}(?::\d{1,3})?(?:\s?(?:[-&,]\s?\d+))*
+
+http://plugins.trac.wordpress.org/ticket/447
+\d{1,3}(?::\s?\d{1,3})?(?:\s?(?:[-&,]\d{1,3}:?\d{0,3}))*
+
+http://plugins.trac.wordpress.org/ticket/349
+(?:\d{1,3}(?::\d{1,3})?(?:\s?(?:[-&,]\s?\d+))*(?:;)*)+
