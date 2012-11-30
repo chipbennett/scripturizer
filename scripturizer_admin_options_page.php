@@ -1,6 +1,6 @@
 <div>
-	<h2>Scripturizer Plugin Settings</h2>
-	<p>Manage settings for the Scripturizer Plugin</p>
+	<h2><?php _e( 'Scripturizer Plugin Settings', 'scripturizer' ); ?></h2>
+	<p><?php _e( 'Manage settings for the Scripturizer Plugin', 'scripturizer' ); ?></p>
 	<form action="options.php" method="post">
 		<?php 
 		settings_fields('plugin_scripturizer_options');

@@ -1,0 +1,916 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scripturizer\n"
+"POT-Creation-Date: 2012-11-30 13:59-0500\n"
+"PO-Revision-Date: 2012-11-30 13:59-0500\n"
+"Last-Translator: Chip Bennett <chip@chipbennett.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Documents and Settings\\wbennett\\My Documents"
+"\\Dev\\GitHub\\scripturizer\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:48
+msgid "21st Century King James Version"
+msgstr "21st Century King James Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:49
+msgid "American Standard Version"
+msgstr "American Standard Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:50
+msgid "Amplified Bible"
+msgstr "Amplified Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:51
+msgid "Common English Bible"
+msgstr "Common English Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:52
+msgid "Contemporary English Version"
+msgstr "Contemporary English Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:53
+msgid "Darby Translation"
+msgstr "Darby Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:54
+msgid "Douay-Rheims 1899 American Edition"
+msgstr "Douay-Rheims 1899 American Edition"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:55
+msgid "English Standard Version"
+msgstr "English Standard Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:56
+msgid "GOD'S WORD Bible"
+msgstr "GOD'S WORD Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:57
+msgid "Good News Translation"
+msgstr "Good News Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:58
+msgid "Holman Christian Standard Bible"
+msgstr "Holman Christian Standard Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:59
+msgid "King James Version"
+msgstr "King James Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:60
+msgid "New American Standard Bible"
+msgstr "New American Standard Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:61
+msgid "New Century Version"
+msgstr "New Century Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:62
+msgid "New International Readers' Version"
+msgstr "New International Readers' Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:63
+msgid "New International Version"
+msgstr "New International Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:64
+msgid "New International Version 1984"
+msgstr "New International Version 1984"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:65
+msgid "New International Version 2010"
+msgstr "New International Version 2010"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:66
+msgid "New International Version (British Edition)"
+msgstr "New International Version (British Edition)"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:67
+msgid "New King James Version"
+msgstr "New King James Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:68
+msgid "New Life Version"
+msgstr "New Life Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:69
+msgid "New Living Translation"
+msgstr "New Living Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:70
+msgid "The Message"
+msgstr "The Message"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:71
+msgid "Today's New International Version"
+msgstr "Today's New International Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:72
+msgid "Worldwide English New Testament"
+msgstr "Worldwide English New Testament"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:73
+msgid "Wycliffe New Testament"
+msgstr "Wycliffe New Testament"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:74
+msgid "Young's Literal Translation"
+msgstr "Young's Literal Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:75
+msgid "New English Translation"
+msgstr "New English Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:76
+msgid "New Revised Standard Version"
+msgstr "New Revised Standard Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:88
+msgid "Nestle-Aland Greek Text 26th edition"
+msgstr "Nestle-Aland Greek Text 26th edition"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:89
+msgid "Septaugint"
+msgstr "Septaugint"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:101
+msgid "[AMU] Amuzgo de Guerrero"
+msgstr "[AMU] Amuzgo de Guerrero"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:102
+msgid "[AR] Arab Life Application Bible"
+msgstr "[AR] Arab Life Application Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:103
+msgid "[BG] Bulgarian Bible"
+msgstr "[BG] Bulgarian Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:104
+msgid "[BG] Bulgarian Bible 1940"
+msgstr "[BG] Bulgarian Bible 1940"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:105
+msgid "[CCO] Chinanteco de Comaltepec"
+msgstr "[CCO] Chinanteco de Comaltepec"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:106
+msgid "[CKW] Cakchiquel Occidental"
+msgstr "[CKW] Cakchiquel Occidental"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:107
+msgid "[CPF] Haitian Creole Version"
+msgstr "[CPF] Haitian Creole Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:108
+msgid "[CS] Slovo na cestu"
+msgstr "[CS] Slovo na cestu"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:109
+msgid "[DA] New Intenational Reader's Version, Danish"
+msgstr "[DA] New Intenational Reader's Version, Danish"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:110
+msgid "[DE] Hope For All, German"
+msgstr "[DE] Hope For All, German"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:111
+msgid "[DE] Luther Bible 1545"
+msgstr "[DE] Luther Bible 1545"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:112
+msgid "[ES] New International Version, Spanish"
+msgstr "[ES] New International Version, Spanish"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:113
+msgid "[ES] Reina-Valera Antigua"
+msgstr "[ES] Reina-Valera Antigua"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:114
+msgid "[ES] Reina-Valera 1960"
+msgstr "[ES] Reina-Valera 1960"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:115
+msgid "[ES] Reina-Valera 1995"
+msgstr "[ES] Reina-Valera 1995"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:116
+msgid "[ES] Castilian"
+msgstr "[ES] Castilian"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:117
+msgid "[ES] Current Language Translation, Spanish"
+msgstr "[ES] Current Language Translation, Spanish"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:118
+msgid "[ES] The New America Bible, Spanish"
+msgstr "[ES] The New America Bible, Spanish"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:119
+msgid "[FR] Louis Segond"
+msgstr "[FR] Louis Segond"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:120
+msgid "[FR] La Bible du Semeur"
+msgstr "[FR] La Bible du Semeur"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:121
+msgid "[GRC] Westcott-Hort New Testament 1881"
+msgstr "[GRC] Westcott-Hort New Testament 1881"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:122
+msgid "[GRC] Stephanus New Testament 1550"
+msgstr "[GRC] Stephanus New Testament 1550"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:123
+msgid "[GRC] Scrivener New Testament 1894"
+msgstr "[GRC] Scrivener New Testament 1894"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:124
+msgid "[HE]) The Westminster Leningrad Codex"
+msgstr "[HE]) The Westminster Leningrad Codex"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:125
+msgid "[HIL] Hiligaynon Bible"
+msgstr "[HIL] Hiligaynon Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:126
+msgid "[HR] Croatian Bible"
+msgstr "[HR] Croatian Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:127
+msgid "[HU] Hungarian Bible"
+msgstr "[HU] Hungarian Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:128
+msgid "[IS] Icelandic Bible"
+msgstr "[IS] Icelandic Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:129
+msgid "[IT] La Nuova Diodati"
+msgstr "[IT] La Nuova Diodati"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:130
+msgid "[IT] The Word Is Life, Italian"
+msgstr "[IT] The Word Is Life, Italian"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:131
+msgid "[JAC] Jacalteco, Oriental"
+msgstr "[JAC] Jacalteco, Oriental"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:132
+msgid "[KEK] Kekchi"
+msgstr "[KEK] Kekchi"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:133
+msgid "[MI] Maori Bible"
+msgstr "[MI] Maori Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:134
+msgid "[MK] Macedonian New Testament"
+msgstr "[MK] Macedonian New Testament"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:135
+msgid "[MVC] Mam, Central"
+msgstr "[MVC] Mam, Central"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:136
+msgid "[MVJ] Mam of Todos Santos Chuchumatan, Guatemala"
+msgstr "[MVJ] Mam of Todos Santos Chuchumatan, Guatemala"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:137
+msgid "[NDS] Reimer 2001"
+msgstr "[NDS] Reimer 2001"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:138
+msgid "[NGU] Nahuatl de Guerrero, Mexico"
+msgstr "[NGU] Nahuatl de Guerrero, Mexico"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:139
+msgid "[NL] Het Boek"
+msgstr "[NL] Het Boek"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:140
+msgid "[NO] Det Norsk Bibelselskap 1930"
+msgstr "[NO] Det Norsk Bibelselskap 1930"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:141
+msgid "[NO] Levande Bibeln"
+msgstr "[NO] Levande Bibeln"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:142
+msgid "[PT] O Livro"
+msgstr "[PT] O Livro"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:143
+msgid "[PT] King James Version, Portuguese"
+msgstr "[PT] King James Version, Portuguese"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:144
+msgid "[QUT] Quiche, West Central Guatemala"
+msgstr "[QUT] Quiche, West Central Guatemala"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:145
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:146
+msgid "[RO] Romanian"
+msgstr "[RO] Romanian"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:147
+msgid "[RU] Russian Synodal Version"
+msgstr "[RU] Russian Synodal Version"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:148
+msgid "[RU] Slovo Zhizny"
+msgstr "[RU] Slovo Zhizny"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:149
+msgid "[SK] New American Standard Bible, Slovak"
+msgstr "[SK] New American Standard Bible, Slovak"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:150
+msgid "[SQ] Albanian Bible"
+msgstr "[SQ] Albanian Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:151
+msgid "[SV] Levande Bibeln"
+msgstr "[SV] Levande Bibeln"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:152
+msgid "[SV] Svenska 1917"
+msgstr "[SV] Svenska 1917"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:153
+msgid "[SW] Swahili New Testament"
+msgstr "[SW] Swahili New Testament"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:154
+msgid "[TL] Ang Salita ng Diyos"
+msgstr "[TL] Ang Salita ng Diyos"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:155
+msgid "[UK] Ukrainian Bible"
+msgstr "[UK] Ukrainian Bible"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:156
+msgid "[USP] Uspanteco"
+msgstr "[USP] Uspanteco"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:157
+msgid "[VI] Vietnamese Bible 1934"
+msgstr "[VI] Vietnamese Bible 1934"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:158
+msgid "[ZH] Chinese Union Version (Traditional)"
+msgstr "[ZH] Chinese Union Version (Traditional)"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:159
+msgid "[ZH] Chinese Union Version (Simplified)"
+msgstr "[ZH] Chinese Union Version (Simplified)"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:259
+msgid "Options"
+msgstr "Options"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:259
+msgid "Scripturizer"
+msgstr "Scripturizer"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer.php:294
+msgid "Settings"
+msgstr "Settings"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:2
+msgid "Important Notes"
+msgstr "Important Notes"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:4
+msgid ""
+"Scripturizer now includes default options settings that will apply "
+"automatically. Unlike with previous Plugin versions, you no longer must "
+"press the UPDATE OPTIONS button at least once to install the default "
+"settings."
+msgstr ""
+"Scripturizer now includes default options settings that will apply "
+"automatically. Unlike with previous Plugin versions, you no longer must "
+"press the UPDATE OPTIONS button at least once to install the default "
+"settings."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:5
+msgid ""
+"If you mess up one of the following inputs, then clear the field (make it "
+"blank), hit \"update options,\" and then the default values will reappear. "
+"Then, you <b>must hit \"update options\" again</b> in order to save the new "
+"value."
+msgstr ""
+"If you mess up one of the following inputs, then clear the field (make it "
+"blank), hit \"update options,\" and then the default values will reappear. "
+"Then, you <b>must hit \"update options\" again</b> in order to save the new "
+"value."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:7
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:20
+msgid "General Options"
+msgstr "General Options"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:8
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:84
+msgid "Default Bible Translation"
+msgstr "Default Bible Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:9
+#, php-format
+msgid ""
+"The Scripturizer supports any version from the <a href=\"%s\" title=\"Go to "
+"Bible Gateway\">Bible Gateway</a> plus ESV, NET, NRSV, and LXX. However, "
+"this option must be ESV if you want to use the ESV show/hide verse text "
+"option."
+msgstr ""
+"The Scripturizer supports any version from the <a href=\"%s\" title=\"Go to "
+"Bible Gateway\">Bible Gateway</a> plus ESV, NET, NRSV, and LXX. However, "
+"this option must be ESV if you want to use the ESV show/hide verse text "
+"option."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:10
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:121
+msgid "Scripturizer Mode"
+msgstr "Scripturizer Mode"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:11
+msgid ""
+"You can use this plugin two ways; it can either scripturize your posts every "
+"time someone views them (dynamic), or it can permanently scripturize the "
+"posts whenever you create or edit them (static). If (1) you have a medium to "
+"high traffic site and (2) you use lots of verse references in your posts, "
+"then you probably want to use static mode. Otherwise, most low traffic blog "
+"sites should be OK in dynamic mode."
+msgstr ""
+"You can use this plugin two ways; it can either scripturize your posts every "
+"time someone views them (dynamic), or it can permanently scripturize the "
+"posts whenever you create or edit them (static). If (1) you have a medium to "
+"high traffic site and (2) you use lots of verse references in your posts, "
+"then you probably want to use static mode. Otherwise, most low traffic blog "
+"sites should be OK in dynamic mode."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:12
+msgid "Considerations for Static Mode"
+msgstr "Considerations for Static Mode"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:14
+msgid ""
+"If Bible Gateway or any of the other Bible sites change their interface, "
+"then your old posts won't work right even if you update this plugin (whereas "
+"if you use dynamic substitution updating the plugin fixes all old and future "
+"posts transparently). This is not a theoretical consideration--the Bible "
+"sites have changed their interfaces since this plugin was first developed "
+"and they are likely to do so again."
+msgstr ""
+"If Bible Gateway or any of the other Bible sites change their interface, "
+"then your old posts won't work right even if you update this plugin (whereas "
+"if you use dynamic substitution updating the plugin fixes all old and future "
+"posts transparently). This is not a theoretical consideration--the Bible "
+"sites have changed their interfaces since this plugin was first developed "
+"and they are likely to do so again."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:15
+msgid ""
+"If you change your default Bible translation then old posts will not be "
+"updated to reflect your new preference. Since it only changes posts when you "
+"edit them, you need to go back through all your old posts with Bible "
+"references and edit them to cause the plugin to take effect"
+msgstr ""
+"If you change your default Bible translation then old posts will not be "
+"updated to reflect your new preference. Since it only changes posts when you "
+"edit them, you need to go back through all your old posts with Bible "
+"references and edit them to cause the plugin to take effect"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:17
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:33
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:137
+msgid "Link CSS Class"
+msgstr "Link CSS Class"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:18
+msgid ""
+"CSS class to apply to scripturized links, for use in optional link styling. "
+"Valid class names must begin with a letter or number, and contain only "
+"letters, numbers, underscores, and hyphens."
+msgstr ""
+"CSS class to apply to scripturized links, for use in optional link styling. "
+"Valid class names must begin with a letter or number, and contain only "
+"letters, numbers, underscores, and hyphens."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:19
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:35
+msgid "Open Link in New Tab/Window"
+msgstr "Open Link in New Tab/Window"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:20
+msgid ""
+"If set to true, adds target=\"_blank\" to scripturized links, causing the "
+"links to open in a new window or tab."
+msgstr ""
+"If set to true, adds target=\"_blank\" to scripturized links, causing the "
+"links to open in a new window or tab."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:21
+msgid "ESV Options"
+msgstr "ESV Options"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:22
+msgid ""
+"Note: these settings only apply if the Default Translation is set to ESV, or "
+"if the inline ad hoc translation is set to ESV."
+msgstr ""
+"Note: these settings only apply if the Default Translation is set to ESV, or "
+"if the inline ad hoc translation is set to ESV."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:23
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:42
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:166
+msgid "Show/Hide ESV Text"
+msgstr "Show/Hide ESV Text"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:24
+msgid ""
+"Show/hide the text (in addition to the reference) of the ESV in your page?"
+msgstr ""
+"Show/hide the text (in addition to the reference) of the ESV in your page?"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:25
+msgid "Note: use of this setting requires an ESV Web Service API Key."
+msgstr "Note: use of this setting requires an ESV Web Service API Key."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:26
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:182
+msgid "ESV Web Service API Key"
+msgstr "ESV Web Service API Key"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:27
+#, php-format
+msgid ""
+"The ESV Web Service now has a <a href=\"%1s\">keyless option</a>. Therefore, "
+"you no longer need your key to use the show/hide ESV text option. Instead, "
+"use <b><code>IP</code></b> as your key. However, if you are using shared-IP "
+"hosting (i.e. more than one site is hosted on your IP address) you will "
+"likely need your own key. To get your free key, follow <a href=\"%2s\">these "
+"simple instructions</a>."
+msgstr ""
+"The ESV Web Service now has a <a href=\"%1s\">keyless option</a>. Therefore, "
+"you no longer need your key to use the show/hide ESV text option. Instead, "
+"use <b><code>IP</code></b> as your key. However, if you are using shared-IP "
+"hosting (i.e. more than one site is hosted on your IP address) you will "
+"likely need your own key. To get your free key, follow <a href=\"%2s\">these "
+"simple instructions</a>."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:28
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:195
+msgid "ESV Inline Verse Display CSS"
+msgstr "ESV Inline Verse Display CSS"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:29
+msgid ""
+"This CSS modifies the SPAN tag in which the ESV verse text will be displayed "
+"on your page. Do not use any line breaks (that means don't push your ENTER "
+"key in this box) since the styles are added straight to the span tag."
+msgstr ""
+"This CSS modifies the SPAN tag in which the ESV verse text will be displayed "
+"on your page. Do not use any line breaks (that means don't push your ENTER "
+"key in this box) since the styles are added straight to the span tag."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:30
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:208
+msgid "ESV Web Service Query Options"
+msgstr "ESV Web Service Query Options"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:31
+#, php-format
+msgid ""
+"ESV Query options to be appended to the URL query string. Refer to the <a "
+"href=\"%s\">ESV Web Service API</a> for more information"
+msgstr ""
+"ESV Query options to be appended to the URL query string. Refer to the <a "
+"href=\"%s\">ESV Web Service API</a> for more information"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:32
+msgid "Credits: \"Give honor to whom honor is due\""
+msgstr "Credits: \"Give honor to whom honor is due\""
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:33
+msgid "Original Scripturizer Perl MovableType Module:"
+msgstr "Original Scripturizer Perl MovableType Module:"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:35
+#, php-format
+msgid "<a href=\"%s\">Dean Peters</a>"
+msgstr "<a href=\"%s\">Dean Peters</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:37
+msgid "Additional Credits for Perl Movable Type Module:"
+msgstr "Additional Credits for Perl Movable Type Module:"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:39
+#, php-format
+msgid "<a href=\"%s\">Jonathan Fox</a>"
+msgstr "<a href=\"%s\">Jonathan Fox</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:40
+#, php-format
+msgid "<a href=\"%s\">Jason Rust</a>"
+msgstr "<a href=\"%s\">Jason Rust</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:41
+#, php-format
+msgid "<a href=\"%s\">Joseph Markey</a>"
+msgstr "<a href=\"%s\">Joseph Markey</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:42
+#, php-format
+msgid "<a href=\"%s\">Brian A. Thomas</a>"
+msgstr "<a href=\"%s\">Brian A. Thomas</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:43
+#, php-format
+msgid "<a href=\"%s\">Rob Hulson</a>"
+msgstr "<a href=\"%s\">Rob Hulson</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:45
+msgid "Port to PHP WordPress Plugin:"
+msgstr "Port to PHP WordPress Plugin:"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:47
+#, php-format
+msgid "<a href=\"%s\">Glen Davis</a>"
+msgstr "<a href=\"%s\">Glen Davis</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:48
+#, php-format
+msgid "<a href=\"%s\">Laurence O'Donnell</a>"
+msgstr "<a href=\"%s\">Laurence O'Donnell</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:50
+msgid "WordPress Plugin Documentation and Development"
+msgstr "WordPress Plugin Documentation and Development"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:52
+#, php-format
+msgid "<a href=\"%s\">Chip Bennett</a>"
+msgstr "<a href=\"%s\">Chip Bennett</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:54
+msgid "JavaScript for ESV Show/Hide"
+msgstr "JavaScript for ESV Show/Hide"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:56
+#, php-format
+msgid "Modified from <a href=\"%s\">this script</a>"
+msgstr "Modified from <a href=\"%s\">this script</a>"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_help.php:58
+#, php-format
+msgid ""
+"For more information, refer to the <a href=\"%s\">Scripturizer Development "
+"Site</a>."
+msgstr ""
+"For more information, refer to the <a href=\"%s\">Scripturizer Development "
+"Site</a>."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:22
+msgid "ESV Show/Hide Verse Text Options"
+msgstr "ESV Show/Hide Verse Text Options"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:29
+msgid "Default Translation"
+msgstr "Default Translation"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:31
+msgid "Substitution Mode"
+msgstr "Substitution Mode"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:44
+msgid "ESV API Key"
+msgstr "ESV API Key"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:46
+msgid "ESV XML Output CSS"
+msgstr "ESV XML Output CSS"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:48
+msgid "ESV Query Options"
+msgstr "ESV Query Options"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:57
+msgid ""
+"Refer to the contextual help screen for descriptions and help regarding each "
+"Plugin option."
+msgstr ""
+"Refer to the contextual help screen for descriptions and help regarding each "
+"Plugin option."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:64
+msgid ""
+"The following settings are applicable only when using the ESV Translation."
+msgstr ""
+"The following settings are applicable only when using the ESV Translation."
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:123
+msgid "Dynamic"
+msgstr "Dynamic"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:124
+msgid "Static"
+msgstr "Static"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:150
+msgid "Open Link in New Window/Tab"
+msgstr "Open Link in New Window/Tab"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:152
+msgid "True (Open In New Tab/Window)"
+msgstr "True (Open In New Tab/Window)"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:153
+msgid "False (Open In Same Tab/Window)"
+msgstr "False (Open In Same Tab/Window)"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:168
+msgid "Show"
+msgstr "Show"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_init.php:169
+msgid "Hide"
+msgstr "Hide"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_page.php:2
+msgid "Scripturizer Plugin Settings"
+msgstr "Scripturizer Plugin Settings"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_page.php:3
+msgid "Manage settings for the Scripturizer Plugin"
+msgstr "Manage settings for the Scripturizer Plugin"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_page.php:9
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: C:\Documents and Settings\wbennett\My
+#: Documents\Dev\GitHub\scripturizer/scripturizer_admin_options_page.php:10
+msgid "Reset Defaults"
+msgstr "Reset Defaults"

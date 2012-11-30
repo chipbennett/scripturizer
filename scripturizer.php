@@ -45,35 +45,35 @@
  */
 function scripturizer_get_translations() {
 	$translations = array(
-		'KJ21'=>'21st Century King James Version', // BibleGateway
-		'ASV'=>'American Standard Version', // BibleGateway
-		'AMP'=>'Amplified Bible', // BibleGateway
-		'CEB'=>'Common English Bible', // BibleGateway
-		'CEV'=>'Contemporary English Version', // BibleGateway
-		'Darby'=>'Darby Translation', // BibleGateway
-		'DRA'=>'Douay-Rheims 1899 American Edition', // BibleGateway
-		'ESV'=>'English Standard Version', // BibleGateway
-		'GW'=>"GOD'S WORD Bible", // BibleGateway
-		'GNT' => 'Good News Translation', // BibleGateway
-		'HCSB'=>'Holman Christian Standard Bible', // BibleGateway
-		'KJV'=>'King James Version', // BibleGateway
-		'NASB'=>'New American Standard Bible', // BibleGateway
-		'NCV' => 'New Century Version', // BibleGateway
-		'NIRV'=>"New International Readers' Version", // BibleGateway
-		'NIV'=>'New International Version', // BibleGateway
-		'NIV1984'=>'New International Version 1984', // BibleGateway
-		'NIV2010'=>'New International Version 2010', // BibleGateway
-		'NIVUK'=>'New International Version (British Edition)', // BibleGateway
-		'NKJV'=>'New King James Version', // BibleGateway
-		'NLV'=>'New Life Version', // BibleGateway
-		'NLT'=>'New Living Translation', // BibleGateway
-		'MSG'=>'The Message', // BibleGateway
-		'TNIV'=>"Today's New International Version", // BibleGateway
-		'WE'=>'Worldwide English New Testament', // BibleGateway
-		'WYC'=>'Wycliffe New Testament', // BibleGateway
-		'YLT'=>"Young's Literal Translation", // BibleGateway
-		'NET'=>'New English Translation',
-		'NRSV'=>'New Revised Standard Version'
+		'KJ21'    => __( '21st Century King James Version', 'scripturizer' ), // BibleGateway
+		'ASV'     => __( 'American Standard Version', 'scripturizer' ), // BibleGateway
+		'AMP'     => __( 'Amplified Bible', 'scripturizer' ), // BibleGateway
+		'CEB'     => __( 'Common English Bible', 'scripturizer' ), // BibleGateway
+		'CEV'     => __( 'Contemporary English Version', 'scripturizer' ), // BibleGateway
+		'Darby'   => __( 'Darby Translation', 'scripturizer' ), // BibleGateway
+		'DRA'     => __( 'Douay-Rheims 1899 American Edition', 'scripturizer' ), // BibleGateway
+		'ESV'     => __( 'English Standard Version', 'scripturizer' ), // BibleGateway
+		'GW'      => __( 'GOD\'S WORD Bible', 'scripturizer' ), // BibleGateway
+		'GNT'     => __( 'Good News Translation', 'scripturizer' ), // BibleGateway
+		'HCSB'    => __( 'Holman Christian Standard Bible', 'scripturizer' ), // BibleGateway
+		'KJV'     => __( 'King James Version', 'scripturizer' ), // BibleGateway
+		'NASB'    => __( 'New American Standard Bible', 'scripturizer' ), // BibleGateway
+		'NCV'     => __( 'New Century Version', 'scripturizer' ), // BibleGateway
+		'NIRV'    => __( 'New International Readers\' Version', 'scripturizer' ), // BibleGateway
+		'NIV'     => __( 'New International Version', 'scripturizer' ), // BibleGateway
+		'NIV1984' => __( 'New International Version 1984', 'scripturizer' ), // BibleGateway
+		'NIV2010' => __( 'New International Version 2010', 'scripturizer' ), // BibleGateway
+		'NIVUK'   => __( 'New International Version (British Edition)', 'scripturizer' ), // BibleGateway
+		'NKJV'    => __( 'New King James Version', 'scripturizer' ), // BibleGateway
+		'NLV'     => __( 'New Life Version', 'scripturizer' ), // BibleGateway
+		'NLT'     => __( 'New Living Translation', 'scripturizer' ), // BibleGateway
+		'MSG'     => __( 'The Message', 'scripturizer' ), // BibleGateway
+		'TNIV'    => __( 'Today\'s New International Version', 'scripturizer' ), // BibleGateway
+		'WE'      => __( 'Worldwide English New Testament', 'scripturizer' ), // BibleGateway
+		'WYC'     => __( 'Wycliffe New Testament', 'scripturizer' ), // BibleGateway
+		'YLT'     => __( 'Young\'s Literal Translation', 'scripturizer' ), // BibleGateway
+		'NET'     => __( 'New English Translation', 'scripturizer' ),
+		'NRSV'    => __( 'New Revised Standard Version', 'scripturizer' )
 	);
 	return apply_filters( 'scripturizer_translations', $translations );
 };
@@ -85,8 +85,8 @@ $scripturizer_translations = scripturizer_get_translations();
  */
 function scripturizer_get_original_translations() {
 	$original_translations = array(
-		'NA26'=>'Nestle-Aland Greek Text 26th edition',
-		'LXX'=>'Septaugint'
+		'NA26' => __( 'Nestle-Aland Greek Text 26th edition', 'scripturizer' ),
+		'LXX'  => __( 'Septaugint', 'scripturizer' )
 	);
 	return apply_filters( 'scripturizer_original_translations', $original_translations );
 };
@@ -98,65 +98,65 @@ $scripturizer_translations_original = scripturizer_get_original_translations();
  */
 function scripturizer_get_non_english_translations() {
 	$non_english_translations = array(
-		'AMU'=>'[AMU] Amuzgo de Guerrero', // BibleGateway, Amuzgo
-		'ALAB'=>'[AR] Arab Life Application Bible', // BibleGateway, Arabic
-		'BULG'=>'[BG] Bulgarian Bible', // BibleGateway, Bulgarian
-		'BG1940'=>'[BG] Bulgarian Bible 1940', // BibleGateway, Bulgarian
-		'CCO'=>'[CCO] Chinanteco de Comaltepec', // BibleGateway, Chinanteco
-		'CKW'=>'[CKW] Cakchiquel Occidental', // BibleGateway, Cakchiquel
-		'HCV'=>'[CPF] Haitian Creole Version', // BibleGateway, Creole
-		'SNC'=>'[CS] Slovo na cestu', // BibleGateway
-		'DN1933'=>'[DA] Dette er Biblen pÃ¥ dansk', // BibleGateway
-		'HOF'=>'[DE] Hoffnung für Alle', // BibleGateway, German
-		'LUTH1545'=>'[DE] Luther Bibel 1545', // BibleGateway, German
-		'NVI'=>'[ES] Nueva Versión Internacional', // BibleGateway, Spanish
-		'RVA'=>'[ES] Reina-Valera Antigua', // BibleGateway, Spanish
-		'RVR1960'=>'[ES] Reina-Valera 1960', // BibleGateway, Spanish
-		'RVR1995'=>'[ES] Reina-Valera 1995', // BibleGateway, Spanish
-		'CST'=>'[ES] Castilian', // BibleGateway, Spanish
-		'TLA'=>'[ES] Traducción en lenguaje actual', // BibleGateway, Spanish
-		'LBLA'=>'[ES] La Biblia de las Américas', // BibleGateway, Spanish
-		'LSG'=>'[FR] Louis Segond', // BibleGateway, French
-		'BDS'=>'[FR] La Bible du Semeur', // BibleGateway, French
-		'WHNU'=>'[GRC] Westcott-Hort New Testament 1881', // BibleGateway, Greek (Ancient)
-		'TR1550'=>'[GRC] Stephanus New Testament 1550', // BibleGateway, Greek (Ancient)
-		'TR1894'=>'[GRC] Scrivener New Testament 1894', // BibleGateway, Greek (Ancient)
-		'WLC'=>'[HE]) The Westminster Leningrad Codex', // BibleGateway
-		'HLGN'=>'[HIL] Hiligaynon Bible', // BibleGateway
-		'CRO'=>'[HR] Croatian Bible', // BibleGateway
-		'KAR'=>'[HU] Hungarian KÃ¡roli', // BibleGateway
-		'ICELAND'=>'[IS] Icelandic Bible', // BibleGateway
-		'LND'=>'[IT] La Nuova Diodati', // BibleGateway
-		'LM'=>'[IT] La Parola è Vita', // BibleGateway
-		'JAC'=>'[JAC] Jacalteco, Oriental', // BibleGateway
-		'KEK'=>'[KEK] Kekchi', // BibleGateway
-		'MAORI'=>'[MI] Maori Bible', // BibleGateway
-		'MNT'=>'[MK] Macedonian New Testament', // BibleGateway
-		'MVC'=>'[MVC] Mam, Central', // BibleGateway
-		'MVJ'=>'[MVJ] Mam de Todos Santos Chuchumatán', // BibleGateway
-		'REIMER'=>'[NDS] Reimer 2001', // BibleGateway
-		'NGU'=>'[NGU] Náhuatl de Guerrero', // BibleGateway
-		'HTB'=>'[NL] Het Boek', // BibleGateway
-		'DNB1930'=>'[NO] Det Norsk Bibelselskap 1930', // BibleGateway
-		'LB'=>'[NO] Levande Bibeln', // BibleGateway
-		'OL'=>'[PT] O Livro', // BibleGateway, Portuguese
-		'AA'=>'[PT] João Ferreira de Almeida Atualizada', // BibleGateway, Portuguese
-		'QUT'=>'[QUT] Quiché, Centro Occidental', // BibleGateway
-		'RMNN'=>'[RO] Romanian', // BibleGateway, Romanian
-		'TLCR'=>'[RO] Romanian', // BibleGateway, Romanian
-		'RUSV'=>'[RU] Russian Synodal Version', // BibleGateway, Russian
-		'SZ'=>'[RU] Slovo Zhizny', // BibleGateway, Russian
-		'NPK'=>'[SK] Nádej pre kazdého', // BibleGateway
-		'ALB'=>'[SQ] Albanian Bible', // BibleGateway, Albanian
-		'SVL'=>'[SV] Levande Bibeln', // BibleGateway
-		'SV1917'=>'[SV] Svenska 1917', // BibleGateway
-		'SNT'=>'[SW] Swahili New Testament', // BibleGateway, Swahili
-		'SND'=>'[TL] Ang Salita ng Diyos', // BibleGateway, Tagalog
-		'UKR'=>'[UK] Ukrainian Bible', // BibleGateway, Ukranian
-		'USP'=>'[USP] Uspanteco', // BibleGateway, Uspanteco
-		'VIET'=>'[VI] Vietnamese Bible 1934', // BibleGateway, Vietnamese
-		'CUV'=>'[ZH] Chinese Union Version (Traditional)', // BibleGateway, Chinese
-		'CUVS'=>'[ZH] Chinese Union Version (Simplified)' // BibleGateway, Chinese
+		'AMU'      => __( '[AMU] Amuzgo de Guerrero', 'scripturizer' ), // BibleGateway, Amuzgo
+		'ALAB'     => __( '[AR] Arab Life Application Bible', 'scripturizer' ), // BibleGateway, Arabic
+		'BULG'     => __( '[BG] Bulgarian Bible', 'scripturizer' ), // BibleGateway, Bulgarian
+		'BG1940'   => __( '[BG] Bulgarian Bible 1940', 'scripturizer' ), // BibleGateway, Bulgarian
+		'CCO'      => __( '[CCO] Chinanteco de Comaltepec', 'scripturizer' ), // BibleGateway, Chinanteco
+		'CKW'      => __( '[CKW] Cakchiquel Occidental', 'scripturizer' ), // BibleGateway, Cakchiquel
+		'HCV'      => __( '[CPF] Haitian Creole Version', 'scripturizer' ), // BibleGateway, Creole
+		'SNC'      => __( '[CS] Slovo na cestu', 'scripturizer' ), // BibleGateway
+		'DN1933'   => __( '[DA] New Intenational Reader\'s Version, Danish', 'scripturizer' ), // BibleGateway
+		'HOF'      => __( '[DE] Hope For All, German', 'scripturizer' ), // BibleGateway, German 
+		'LUTH1545' => __( '[DE] Luther Bible 1545', 'scripturizer' ), // BibleGateway, German 
+		'NVI'      => __( '[ES] New International Version, Spanish', 'scripturizer' ), // BibleGateway, Spanish
+		'RVA'      => __( '[ES] Reina-Valera Antigua', 'scripturizer' ), // BibleGateway, Spanish
+		'RVR1960'  => __( '[ES] Reina-Valera 1960', 'scripturizer' ), // BibleGateway, Spanish
+		'RVR1995'  => __( '[ES] Reina-Valera 1995', 'scripturizer' ), // BibleGateway, Spanish
+		'CST'      => __( '[ES] Castilian', 'scripturizer' ), // BibleGateway, Spanish
+		'TLA'      => __( '[ES] Current Language Translation, Spanish', 'scripturizer' ), // BibleGateway, Spanish
+		'LBLA'     => __( '[ES] The New America Bible, Spanish', 'scripturizer' ), // BibleGateway, Spanish 
+		'LSG'      => __( '[FR] Louis Segond', 'scripturizer' ), // BibleGateway, French
+		'BDS'      => __( '[FR] La Bible du Semeur', 'scripturizer' ), // BibleGateway, French
+		'WHNU'     => __( '[GRC] Westcott-Hort New Testament 1881', 'scripturizer' ), // BibleGateway, Greek (Ancient)
+		'TR1550'   => __( '[GRC] Stephanus New Testament 1550', 'scripturizer' ), // BibleGateway, Greek (Ancient)
+		'TR1894'   => __( '[GRC] Scrivener New Testament 1894', 'scripturizer' ), // BibleGateway, Greek (Ancient)
+		'WLC'      => __( '[HE]) The Westminster Leningrad Codex', 'scripturizer' ), // BibleGateway
+		'HLGN'     => __( '[HIL] Hiligaynon Bible', 'scripturizer' ), // BibleGateway
+		'CRO'      => __( '[HR] Croatian Bible', 'scripturizer' ), // BibleGateway
+		'KAR'      => __( '[HU] Hungarian Bible', 'scripturizer' ), // BibleGateway 
+		'ICELAND'  => __( '[IS] Icelandic Bible', 'scripturizer' ), // BibleGateway
+		'LND'      => __( '[IT] La Nuova Diodati', 'scripturizer' ), // BibleGateway
+		'LM'       => __( '[IT] The Word Is Life, Italian', 'scripturizer' ), // BibleGateway
+		'JAC'      => __( '[JAC] Jacalteco, Oriental', 'scripturizer' ), // BibleGateway
+		'KEK'      => __( '[KEK] Kekchi', 'scripturizer' ), // BibleGateway
+		'MAORI'    => __( '[MI] Maori Bible', 'scripturizer' ), // BibleGateway
+		'MNT'      => __( '[MK] Macedonian New Testament', 'scripturizer' ), // BibleGateway
+		'MVC'      => __( '[MVC] Mam, Central', 'scripturizer' ), // BibleGateway
+		'MVJ'      => __( '[MVJ] Mam of Todos Santos Chuchumatan, Guatemala', 'scripturizer' ), // BibleGateway
+		'REIMER'   => __( '[NDS] Reimer 2001', 'scripturizer' ), // BibleGateway
+		'NGU'      => __( '[NGU] Nahuatl de Guerrero, Mexico', 'scripturizer' ), // BibleGateway
+		'HTB'      => __( '[NL] Het Boek', 'scripturizer' ), // BibleGateway
+		'DNB1930'  => __( '[NO] Det Norsk Bibelselskap 1930', 'scripturizer' ), // BibleGateway
+		'LB'       => __( '[NO] Levande Bibeln', 'scripturizer' ), // BibleGateway
+		'OL'       => __( '[PT] O Livro', 'scripturizer' ), // BibleGateway, Portuguese
+		'AA'       => __( '[PT] King James Version, Portuguese', 'scripturizer' ), // BibleGateway, Portuguese 
+		'QUT'      => __( '[QUT] Quiche, West Central Guatemala', 'scripturizer' ), // BibleGateway 
+		'RMNN'     => __( '[RO] Romanian', 'scripturizer' ), // BibleGateway, Romanian
+		'TLCR'     => __( '[RO] Romanian', 'scripturizer' ), // BibleGateway, Romanian
+		'RUSV'     => __( '[RU] Russian Synodal Version', 'scripturizer' ), // BibleGateway, Russian
+		'SZ'       => __( '[RU] Slovo Zhizny', 'scripturizer' ), // BibleGateway, Russian
+		'NPK'      => __( '[SK] New American Standard Bible, Slovak', 'scripturizer' ), // BibleGateway 
+		'ALB'      => __( '[SQ] Albanian Bible', 'scripturizer' ), // BibleGateway, Albanian
+		'SVL'      => __( '[SV] Levande Bibeln', 'scripturizer' ), // BibleGateway
+		'SV1917'   => __( '[SV] Svenska 1917', 'scripturizer' ), // BibleGateway
+		'SNT'      => __( '[SW] Swahili New Testament', 'scripturizer' ), // BibleGateway, Swahili
+		'SND'      => __( '[TL] Ang Salita ng Diyos', 'scripturizer' ), // BibleGateway, Tagalog
+		'UKR'      => __( '[UK] Ukrainian Bible', 'scripturizer' ), // BibleGateway, Ukranian
+		'USP'      => __( '[USP] Uspanteco', 'scripturizer' ), // BibleGateway, Uspanteco
+		'VIET'     => __( '[VI] Vietnamese Bible 1934', 'scripturizer' ), // BibleGateway, Vietnamese
+		'CUV'      => __( '[ZH] Chinese Union Version (Traditional)', 'scripturizer' ), // BibleGateway, Chinese
+		'CUVS'     => __( '[ZH] Chinese Union Version (Simplified)', 'scripturizer' ) // BibleGateway, Chinese
 	);
 	return apply_filters( 'scripturizer_non_english_translations', $non_english_translations );
 };
@@ -202,6 +202,13 @@ function scripturizer_get_options() {
 }
 global $scripturizer_options;
 $scripturizer_options = scripturizer_get_options();
+
+/**
+ * Load Scripturizer textdomain
+ */
+function scripturizer_load_textdomain() {
+	load_plugin_textdomain( 'scripturizer', false, dirname( plugin_basename( __FILE__ ) ) ); 
+}
 
 
 /**
@@ -249,7 +256,7 @@ function scripturizer_init() {
 // Function to add admin options page
 function scripturizer_menu() {
 	global $scripturizer_admin_options_hook;
-	$scripturizer_admin_options_hook = add_options_page('Options', 'Scripturizer', 'manage_options', 'scripturizer', 'scripturizer_admin_options_page');
+	$scripturizer_admin_options_hook = add_options_page( __( 'Options', 'scripturizer' ), __( 'Scripturizer', 'scripturizer' ), 'manage_options', 'scripturizer', 'scripturizer_admin_options_page' );
 }
 // Admin options page markup 
 // Moved to separate file for ease of management
@@ -284,7 +291,7 @@ return $contextual_help;
  * 
  */	
 function scripturizer_actlinks( $links ) {
-	$scripturizer_settings_link = '<a href="options-general.php?page=scripturizer">Settings</a>'; 
+	$scripturizer_settings_link = '<a href="options-general.php?page=scripturizer">' . __(  'Settings', 'scripturizer' ) . '</a>'; 
 	$links[] = $scripturizer_settings_link;
 	return $links; 
 }
@@ -874,6 +881,8 @@ if ( ! function_exists( 'esvShowHideHeader' ) ) {
 }
 
 ##### ADD ACTIONS AND FILTERS
+// Load Plugin textdomain
+add_action( 'plugins_loaded', 'scripturizer_load_textdomain' );
 // Initialize Plugin options
 add_action('activate_scripturizer/scripturizer.php', 'scripturizer_init' );
 // add the admin settings and such
