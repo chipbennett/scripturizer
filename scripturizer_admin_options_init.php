@@ -88,7 +88,7 @@ function scripturizer_setting_default_translation() {
 			ksort( $scripturizer_translations );
 			$translations_english = $scripturizer_translations;
 			foreach ( $translations_english as $translation_acronym => $translation_name ) { ?>
-				<option <?php if ( $translation_acronym == $scripturizer_options['default_translation'] ) echo 'selected="selected"'; ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
+				<option <?php selected( $translation_acronym == $scripturizer_options['default_translation'] ); ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
 			<?php } ?>
 			</optgroup>
 			<optgroup label="Original Languages">
@@ -96,14 +96,14 @@ function scripturizer_setting_default_translation() {
 			ksort( $scripturizer_translations_original );
 			$translations_original = $scripturizer_translations_original;
 			foreach ( $translations_original as $translation_acronym => $translation_name ) { ?>
-				<option <?php if ( $translation_acronym == $scripturizer_options['default_translation'] ) echo 'selected="selected"'; ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
+				<option <?php selected( $translation_acronym == $scripturizer_options['default_translation'] ); ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
 			<?php } ?>
 			</optgroup>
 			<optgroup label="Other Languages">
 		   <?php 
 			$translations_non_english = $scripturizer_translations_non_english;
 			foreach ( $translations_non_english as $translation_acronym => $translation_name ) { ?>
-				<option <?php if ( $translation_acronym == $scripturizer_options['default_translation'] ) echo 'selected="selected"'; ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
+				<option <?php selected( $translation_acronym == $scripturizer_options['default_translation'] ); ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
 			<?php } ?>
 			</optgroup>
 			</select>
@@ -120,8 +120,8 @@ function scripturizer_setting_dynamic_substitution() {
 		<label for="scripturizer_dynamic_substitution">
 			<b><?php _e('Scripturizer Mode', 'Scripturizer'); ?></b><br />
 			<select name="plugin_scripturizer_options[dynamic_substitution]">
-				<option <?php if ( true == $scripturizer_options['dynamic_substitution'] ) echo 'selected="selected"'; ?> value="true"><?php _e( 'Dynamic', 'scripturizer' ); ?></option>
-				<option <?php if ( false == $scripturizer_options['dynamic_substitution'] ) echo 'selected="selected"'; ?> value="false"><?php _e( 'Static', 'scripturizer' ); ?></option>
+				<option <?php selected( true == $scripturizer_options['dynamic_substitution'] ); ?> value="true"><?php _e( 'Dynamic', 'scripturizer' ); ?></option>
+				<option <?php selected( false == $scripturizer_options['dynamic_substitution'] ); ?> value="false"><?php _e( 'Static', 'scripturizer' ); ?></option>
 			</select>
 		</label>
 	</p>
@@ -149,8 +149,8 @@ function scripturizer_setting_link_target_blank() {
 		<label for="scripturizer_link_target_blank">
 			<b><?php _e('Open Link in New Window/Tab', 'Scripturizer'); ?></b><br />
 			<select name="plugin_scripturizer_options[link_target_blank]">
-				<option <?php if ( true == $scripturizer_options['link_target_blank'] ) echo 'selected="selected"'; ?> value="true"><?php _e( 'True (Open In New Tab/Window)', 'scripturizer' ); ?></option>
-				<option <?php if ( false == $scripturizer_options['link_target_blank'] ) echo 'selected="selected"'; ?> value="false"><?php _e( 'False (Open In Same Tab/Window)', 'scripturizer' ); ?></option>
+				<option <?php selected( true == $scripturizer_options['link_target_blank'] ); ?> value="true"><?php _e( 'True (Open In New Tab/Window)', 'scripturizer' ); ?></option>
+				<option <?php selected( false == $scripturizer_options['link_target_blank'] ); ?> value="false"><?php _e( 'False (Open In Same Tab/Window)', 'scripturizer' ); ?></option>
 			</select>
 		</label>
 	</p>
@@ -165,8 +165,8 @@ function scripturizer_setting_esv_show_hide() {
 		<label for="scripturizer_xml_show_hide">
 			<b><?php _e('Show/Hide ESV Text', 'Scripturizer'); ?></b><br />
 			<select name="plugin_scripturizer_options[xml_show_hide]">
-				<option <?php if ( true == $scripturizer_options['xml_show_hide'] ) echo 'selected="selected"'; ?> value="true"><?php _e( 'Show', 'scripturizer' ); ?></option>
-				<option <?php if ( false == $scripturizer_options['xml_show_hide'] ) echo 'selected="selected"'; ?> value="false"><?php _e( 'Hide', 'scripturizer' ); ?></option>
+				<option <?php selected( true == $scripturizer_options['xml_show_hide'] ); ?> value="true"><?php _e( 'Show', 'scripturizer' ); ?></option>
+				<option <?php selected( false == $scripturizer_options['xml_show_hide'] ); ?> value="false"><?php _e( 'Hide', 'scripturizer' ); ?></option>
 			</select>
 		</label>
 	</p>
