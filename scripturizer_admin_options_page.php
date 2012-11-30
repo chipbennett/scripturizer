@@ -6,6 +6,7 @@
 		settings_fields('plugin_scripturizer_options');
 		do_settings_sections('scripturizer');
 		?>
-		<input name="Submit" type="submit" value="<?php esc_attr_e('Save Changes'); ?>" />
+		<?php submit_button( __( 'Save Settings', 'scripturizer' ), 'primary', 'plugin_scripturizer_options[submit]', false ); ?>
+		<?php submit_button( __( 'Reset Defaults', 'scripturizer' ), 'secondary', 'plugin_scripturizer_options[reset]', false ); ?>
 	</form>
 </div>

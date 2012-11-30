@@ -1,13 +1,8 @@
 <?php
 $text = "<h2>" . __( 'Important Notes', 'Scripturizer' ) . "</h2>";
 $text .= "<ol>";
-<<<<<<< .mine
-$text .= "<li>" . __('You must press the UPDATE OPTIONS button at least once to install the default settings.', 'Scripturizer') . "</li>";
-$text .= "<li>" . __('If you mess up one of the following inputs, then clear the field (make it blank), hit \"update options,\" and then the default values will reappear. Then, you <b>must hit \"update options\" again</b> in order to save the new value.', 'Scripturizer') . "</li>";
-=======
 $text .= "<li>" . __('Scripturizer now includes default options settings that will apply automatically. Unlike with previous Plugin versions, you no longer must press the UPDATE OPTIONS button at least once to install the default settings.', 'Scripturizer') . "</li>";
 $text .= "<li>" . __('If you mess up one of the following inputs, then clear the field (make it blank), hit "update options," and then the default values will reappear. Then, you <b>must hit "update options" again</b> in order to save the new value.', 'Scripturizer') . "</li>";
->>>>>>> .r329027
 $text .= "</ol>";
 $text .= "<h2>" . __( 'General Options', 'Scripturizer' ) . "</h2>";
 $text .= "<h3>" . __( 'Default Bible Translation', 'Scripturizer' ) . "</h3>";
@@ -61,13 +56,4 @@ $text .= "<ul>";
 $text .= "<li>" . sprintf( __( 'Modified from <a href="%s">this script</a>', 'Scripturizer' ), 'http://lists.evolt.org/archive/Week-of-Mon-20020624/116151.html' ) . "</li>";
 $text .= "</ul>";
 $text .= "<p>" . sprintf( __ ( 'For more information, refer to the <a href="%s">Scripturizer Development Site</a>.', 'Scripturizer' ), 'http://dev.wp-plugins.org/wiki/Scripturizer' ) . "</p>";
-<<<<<<< .mine
-
-if ( $screen_id == $scripturizer_admin_options_hook ) {
-		$contextual_help = $text;
-	}
-	
-return $contextual_help;
-=======
->>>>>>> .r329027
 ?>

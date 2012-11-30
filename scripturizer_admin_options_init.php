@@ -1,7 +1,15 @@
 <?php 
 
 global $scripturizer_options;
-$scripturizer_options = get_option( 'plugin_scripturizer_options' );
+$scripturizer_options = scripturizer_get_options();
+global $scripturizer_options_default;
+$scripturizer_options_default = scripturizer_get_options_default();
+global $scripturizer_translations;
+$scripturizer_translations = scripturizer_get_translations();
+global $scripturizer_translations_original;
+$scripturizer_translations_original = scripturizer_get_original_translations();
+global $scripturizer_translations_non_english;
+$scripturizer_translations_non_english = scripturizer_get_non_english_translations();
 
 // Register Plugin Settings
 	
@@ -53,19 +61,40 @@ function scripturizer_settings_esv_section_text() { ?>
 
 // Default Translation Setting
 function scripturizer_setting_default_translation() {
-	$scripturizer_options = get_option( 'plugin_scripturizer_options' );
-	global $scripturizer_translations; ?>
+	global $scripturizer_options;;
+	global $scripturizer_options_default;
+	$scripturizer_default_translation = $scripturizer_options_default['default_translation'];
+	global $scripturizer_translations;
+	global $scripturizer_translations_original;
+	global $scripturizer_translations_non_english;
+	?>
 	<p>
 		<label for="scripturizer_default_translation">
 			<b><?php _e('Default Bible Translation', 'Scripturizer'); ?></b><br />
 			<select name="plugin_scripturizer_options[default_translation]">
+			<optgroup label="English Translations">
 		   <?php 
-			$scripturizer_default_translation = $scripturizer_options_default['default_translation'];
 			ksort( $scripturizer_translations );
-			$translations = $scripturizer_translations;
-			foreach ( $translations as $translation_acronym => $translation_name ) { ?>
+			$translations_english = $scripturizer_translations;
+			foreach ( $translations_english as $translation_acronym => $translation_name ) { ?>
 				<option <?php if ( $translation_acronym == $scripturizer_options['default_translation'] ) echo 'selected="selected"'; ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
 			<?php } ?>
+			</optgroup>
+			<optgroup label="Original Languages">
+		   <?php 
+			ksort( $scripturizer_translations_original );
+			$translations_original = $scripturizer_translations_original;
+			foreach ( $translations_original as $translation_acronym => $translation_name ) { ?>
+				<option <?php if ( $translation_acronym == $scripturizer_options['default_translation'] ) echo 'selected="selected"'; ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
+			<?php } ?>
+			</optgroup>
+			<optgroup label="Other Languages">
+		   <?php 
+			$translations_non_english = $scripturizer_translations_non_english;
+			foreach ( $translations_non_english as $translation_acronym => $translation_name ) { ?>
+				<option <?php if ( $translation_acronym == $scripturizer_options['default_translation'] ) echo 'selected="selected"'; ?> value="<?php echo $translation_acronym; ?>"><?php echo $translation_name; ?> (<?php echo $translation_acronym; ?>)</option>
+			<?php } ?>
+			</optgroup>
 			</select>
 		</label>
 	</p>
@@ -162,26 +191,56 @@ function scripturizer_setting_esv_query_options() {
 // Validate data input before updating Plugin options
 function scripturizer_options_validate( $input ) {
 
-	global $scripturizer_translations;
-	$scripturizer_options = get_option( 'plugin_scripturizer_options' );
+	$reset_submit = ( isset( $input['reset'] ) ? true : false );
 	
-	$valid_translations = implode( '|', array_keys( $scripturizer_translations ) );
-	$valid_css_class = '[a-zA-Z]+[_a-zA-Z0-9-]*';
-	$invalid_css = array( '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '', '=', '+', ',', '.', '/', '<', '>', '?', ';', ':', '[', ']', '{', '}', '\\', '|', '\'', '\"' );
+	if ( $reset_submit ) {
+	  
+	      global $scripturizer_options_default;
+	      
+	      $valid_input['default_translation'] = $scripturizer_options_default['default_translation'];
+	      $valid_input['dynamic_substitution'] = $scripturizer_options_default['dynamic_substitution'];
+	      $valid_input['xml_show_hide'] = $scripturizer_options_default['xml_show_hide'];
+	      $valid_input['esv_key'] =  $scripturizer_options_default['esv_key'];
+	      $valid_input['xml_css'] =  $scripturizer_options_default['xml_css'];
+	      $valid_input['esv_query_options'] = $scripturizer_options_default['esv_query_options'];
+	      $valid_input['libronix'] = false;
+	      $valid_input['link_css_class'] = $scripturizer_options_default['link_css_class'];
+	      $valid_input['link_target_blank'] = $scripturizer_options_default['link_target_blank'];
+	
+	      return $valid_input;
+	  
+	} else {
+	
+	      $scripturizer_options = scripturizer_get_options();
+	      
+	      global $scripturizer_translations;
+	      global $scripturizer_translations_original;
+	      global $scripturizer_translations_non_english;
+	
+	      $valid_translations_english = implode( '|', array_keys( $scripturizer_translations ) );
+	      $valid_translations_default = implode( '|', array_keys( $scripturizer_translations_original ) );
+	      $valid_translations_non_english = implode( '|', array_keys( $scripturizer_translations_non_english ) );
+	      
+	      $valid_translations_all = $valid_translations_english . $valid_translations_default . $valid_translations_non_english;
+	      
+	      $valid_css_class = '[a-zA-Z]+[_a-zA-Z0-9-]*';
+	      $invalid_css = array( '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '', '=', '+', ',', '.', '/', '<', '>', '?', ';', ':', '[', ']', '{', '}', '\\', '|', '\'', '\"' );
 
-	$valid_input = $scripturizer_options;	
+	      $valid_input = $scripturizer_options;	
 	
-	$valid_input['default_translation'] = ( strpos( $valid_translations, $input['default_translation'] ) !== false ? $input['default_translation'] : $scripturizer_options['default_translation'] );
-	$valid_input['dynamic_substitution'] = ( $input['dynamic_substitution'] == 'true' ? true : false );
-	$valid_input['xml_show_hide'] = ( $input['xml_show_hide'] == 'true' ? true : false );	
-	$valid_input['esv_key'] =  wp_filter_nohtml_kses( $input['esv_key'] );	
-	$valid_input['xml_css'] =  wp_filter_nohtml_kses( $input['xml_css'] );
-	$valid_input['esv_query_options'] = urlencode( $input['esv_query_options'] );
-	$valid_input['libronix'] = false;
-	$valid_input['link_css_class'] = wp_filter_nohtml_kses( str_ireplace( $invalid_css, '', ltrim( trim( $input['link_css_class'] ), "_-0..9" ) ) );
-	//$valid_input['link_css_class'] = ( preg_match( $valid_css_class, $input['link_css_class'] != '0' ) ? $input['link_css_class'] : $scripturizer_options['link_css_class'] );
-	$valid_input['link_target_blank'] = ( $input['link_target_blank'] == 'true' ? true : false );
+	      $valid_input['default_translation'] = ( strpos( $valid_translations_all, $input['default_translation'] ) !== false ? $input['default_translation'] : $scripturizer_options['default_translation'] );
+	      $valid_input['dynamic_substitution'] = ( $input['dynamic_substitution'] == 'true' ? true : false );
+	      $valid_input['xml_show_hide'] = ( $input['xml_show_hide'] == 'true' ? true : false );	
+	      $valid_input['esv_key'] =  wp_filter_nohtml_kses( $input['esv_key'] );	
+	      $valid_input['xml_css'] =  wp_filter_nohtml_kses( $input['xml_css'] );
+	      $valid_input['esv_query_options'] = wp_filter_nohtml_kses( $input['esv_query_options'] );
+	      $valid_input['libronix'] = false;
+	      $valid_input['link_css_class'] = wp_filter_nohtml_kses( str_ireplace( $invalid_css, '', ltrim( trim( $input['link_css_class'] ), "_-0..9" ) ) );
+	      $valid_input['link_target_blank'] = ( $input['link_target_blank'] == 'true' ? true : false );
+	      $valid_input['reset'] = false;
 	
-	return $valid_input;
+	      return $valid_input;
+	
+	}
 }
 ?>

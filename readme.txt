@@ -2,9 +2,9 @@
 Tags: bible, scripture
 Contributors: xaglen, laurenceo, chipbennett
 Donate Link: 
-Tested up to: 3.0.4
-Requires at least: 3.0
-Stable tag: 2.1
+Tested up to: 3.5
+Requires at least: 3.1
+Stable tag: 2.2
 
 Scripturizer will convert Bible references in your posts and comments into hyperlinks to online Bibles.
 
