@@ -387,8 +387,8 @@ function scripturizeAddLinks( $text = '', $bible = NULL ) {
     */
     $passage_regex = '/(?:('.$volume_regex.')\s)?('.$book_regex.')\s('.$verse_regex.')(?:\s?[,-]?\s?((?:'.$translation_regex.')|\s?\((?:'.$translation_regex.')\)))?/';
 
-	//Use a class so we can access $bible in callback
-	//@see http://stackoverflow.com/questions/9550769/passing-additional-arguments-to-preg-replace-callback-using-php-5-2-6
+    //Use a class so we can access $bible in callback
+    //@see http://stackoverflow.com/questions/9550769/passing-additional-arguments-to-preg-replace-callback-using-php-5-2-6
     $regex_handler = new ScripturizeRegexCallback( $bible );
     $text = preg_replace_callback( $passage_regex, array( $regex_handler, 'callback' ), $text );
 
@@ -397,14 +397,14 @@ function scripturizeAddLinks( $text = '', $bible = NULL ) {
 
 class ScripturizeRegexCallback {
     
-	private $translation;
+    private $translation;
 
     function __construct( $translation ) {
         $this->translation = $translation;
     }
 
     public function callback( $matches ) {
-    	return scripturizeLinkReference( $matches[0], $matches[1], $matches[2], $matches[3], $this->translation );
+        return scripturizeLinkReference( $matches[0], $matches[1], $matches[2], $matches[3], $this->translation );
     }
 }
 
