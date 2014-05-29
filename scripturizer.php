@@ -385,13 +385,27 @@ function scripturizeAddLinks( $text = '', $bible = NULL ) {
     $passage_ot_regex = '/(?:('.$volume_regex.')\s)?('.$book_ot_regex.')\s('.$verse_regex.')(?:\s?[,-]?\s?((?:'.$translation_regex.')|\s?\((?:'.$translation_regex.')\)))?/e';
     $passage_regex = '/(?:('.$volume_regex.')\s)?('.$book_nt_regex.')\s('.$verse_regex.')(?:\s?[,-]?\s?((?:'.$translation_regex.')|\s?\((?:'.$translation_nt_regex.')\)))?/e';
     */
-    $passage_regex = '/(?:('.$volume_regex.')\s)?('.$book_regex.')\s('.$verse_regex.')(?:\s?[,-]?\s?((?:'.$translation_regex.')|\s?\((?:'.$translation_regex.')\)))?/e';
+    $passage_regex = '/(?:('.$volume_regex.')\s)?('.$book_regex.')\s('.$verse_regex.')(?:\s?[,-]?\s?((?:'.$translation_regex.')|\s?\((?:'.$translation_regex.')\)))?/';
 
-    $replacement_regex = "scripturizeLinkReference('\\0','\\1','\\2','\\3','\\4','$bible')";
-
-    $text = preg_replace( $passage_regex, $replacement_regex, $text );
+	//Use a class so we can access $bible in callback
+	//@see http://stackoverflow.com/questions/9550769/passing-additional-arguments-to-preg-replace-callback-using-php-5-2-6
+    $regex_handler = new ScripturizeRegexCallback( $bible );
+    $text = preg_replace_callback( $passage_regex, array( $regex_handler, 'callback' ), $text );
 
     return $text; // TODO: make this an array, to return text, plus OT/NT (for original languages)
+}
+
+class ScripturizeRegexCallback {
+    
+	private $translation;
+
+    function __construct( $translation ) {
+        $this->translation = $translation;
+    }
+
+    public function callback( $matches ) {
+    	return scripturizeLinkReference( $matches[0], $matches[1], $matches[2], $matches[3], $this->translation );
+    }
 }
 
 function scripturizeLinkReference( $reference='', $volume='', $book='', $verse='', $translation='', $user_translation='' ) {
